@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.left-panel {
+  width: 50%;
+  display: block;
+  float: left;
+}
+
+.right-panel {
+  width: 50%;
+  display: block;
+  float: left;
+}
+
+h2.left-head {
+  text-align: center;
+}
+
+.front-box {
+  padding: 0% 5%;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+
+.front-box label {
+  font-size: 0.8em;
+  color: grey;
+}
+
+.inputBox {
+  width: 100%;
+  height: 50px;
+}
+
+.inputBox > input[type="number"] {
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  font-size: 1em;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+span.get-money-btn {
+  display: block;
+  background: gray;
+  color: white;
+  width: 40%;
+  padding: 2%;
+  font-weight: bold;
+  margin-top: 3%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.header {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+tfoot {
+  font-weight: 600;
+}
+
+tr {
+  color: #49525a;
+}
